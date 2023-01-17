@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-screen,
+.question-screen,
+.end-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(6, 84, 136);
+    text-shadow: 1px 1px 2px rgb(255, 0, 0);
+
+    background-image: url(../img/background.jpg);
+
+    background-size: cover;
+    background-position-x: center;
+    text-shadow: 1px 1px 2px rgb(255, 0, 0);
+}
+
+.welcome-screen {
+    flex-direction: column;
+    color: rgb(217, 229, 238);
+    text-shadow: 1px 1px 2px rgb(74, 16, 112);
+    
+}
+
+.question-screen,
+.end-screen {
+    display: none;
+    color: rgb(124, 152, 172);
+    text-shadow: 1px 1px 2px rgb(60, 21, 83);
+}
